@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="card-img"></div>
+        <div class="card-right">
+            <div class="forn">
+                <form action="#">
+                    <div class="cadastro">
+                        <h1>Cadastra-se</h1>
+                        <button class="btn"><a href="index.html">Entrar</a></button>
+                    </div>
+                    <div class="input-container">
+
+
+                        <div class="input-box">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="sobrenome">Sobrenome</label>
+                            <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu Sobrenome" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email">Email</label>
+                            <input type="email" id="emial" name="email" placeholder="Digite seu email"required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="celular">Celular</label>
+                            <input type="text" id="celular" name="celular" placeholder="(xx)xxxx-xxxx" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="password">Senha</label>
+                            <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="confirmaSenha">Confirme sua senha</label>
+                            <input type="password" id="confirmaSenha" name="confirmaSenha" placeholder="Digite sua senha novamente">
+                        </div>
+
+
+                    </div>
+                    <div class="genero title">
+                        <h2>Gênero</h2>
+                    </div>
+                    <div class="genero">
+                        <div class="box-genero">
+                            <input class="femenino" type="radio" id="femenino" name="genero">
+                            <label for="femenino">Femenino</label>
+                        </div>
+
+                        <div class="box-genero">
+                            <input class="masculuno" type="radio" id="masculuno" name="genero">
+                            <label for="masculuno">Masculuno</label>
+                        </div>
+
+                        <div class="box-genero">
+                            <input class="outros" type="radio" id="outros" name="genero">
+                            <label for="outros">Outros</label>
+                        </div>
+                    </div>
+                    <button class="btn btn-enviar">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

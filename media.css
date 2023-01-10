@@ -1,0 +1,39 @@
+@media  screen and (min-width:700px) {
+    .card-left {
+        width: 50vw;
+    }
+    .forn{
+        width: 65vw;
+    }
+    .card-img {
+        display: block;
+    }
+    
+}
+
+@media  screen and (min-width:1400px) {
+    .card-left {
+        width: 70vw;
+    }
+    .forn{
+        width: 30vw;
+        
+        
+    }
+    .card-img {
+        display: block;
+    }
+    .input-container {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .input-box{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+
